@@ -4,7 +4,7 @@
    Nico photo css custom.
    ========================================================================== */
 
-body {
+body.container {
   padding-top: 50px;
   padding-bottom: 20px;
 }
@@ -17,11 +17,26 @@ body {
 
 /*Mise en transparence de l'élément actif.*/
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
-color: #555;
+color: white;
 background-color: rgba(12, 55, 83, 0.32);
 }
 
 
+.banner {
+height: 700px;
+width: 100%;
+color: #fff;
+text-align: center;
+background: #242628 url(https://ghost.org//assets/home_bg-0e5737375b802c4aff3172acef8ee6b9.jpg) center center;
+background-size: cover;
+position: relative;
+margin-top: -60px;
+}
+
+
+.navbar-default .navbar-nav>li>a {
+color: white;
+}
 
 
 
