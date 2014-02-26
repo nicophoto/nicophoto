@@ -1,0 +1,31 @@
+
+
+/* ==========================================================================
+   Nico photo css custom.
+   ========================================================================== */
+
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+/*Barre de navigation transparente.*/
+.navbar-default {
+  background-color: rgba(248, 248, 248, 0);
+  border-color: rgba(231, 231, 231, 0.57);
+}
+
+/*Mise en transparence de l'élément actif.*/
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+color: #555;
+background-color: rgba(12, 55, 83, 0.32);
+}
+
+
+
+
+
+
+
+
+
