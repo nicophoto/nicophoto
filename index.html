@@ -37,11 +37,10 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Présentation</a></li>
-            <li><a href="#galerie">Galerie</a></li>
-            <li><a href="#about">A propos</a></li>
-            <li><a href="#tarifs">Tarifs</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#apropos" data-page="apropos">A propos</a></li>
+            <li><a href="#galerie" data-page="galerie">Galerie</a></li>
+            <li><a href="#tarifs" data-page="tarifs">Tarifs</a></li>
+            <li><a href="#contact" data-page="contact">Contact</a></li>
           </ul>
           
         </div><!--/.navbar-collapse -->
@@ -50,7 +49,7 @@
     </div>
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
+    <div class="jumbotron" data-page="apropos" hidden>
       <div class="container">
         <h1>Bienvenue sur le site de Nicophoto.</h1>
         <p>Voci le détail de mes compétences.</p>
@@ -58,25 +57,19 @@
       </div>
     </div>
 
+  
     <div class="container">
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="col-lg-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
-        </div>
-        <div class="col-lg-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
-       </div>
-        <div class="col-lg-4">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
-        </div>
+      
+      <div class="tarifs" data-page="tarifs" hidden>
+        <h2>Tarifs</h2>
+        <table>
+          <thead>
+            
+          </thead>
+          <tbody></tbody>
+        </table>
       </div>
+    </div>
 
       <hr>
 

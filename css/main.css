@@ -38,6 +38,10 @@ margin-top: -60px;
 color: white;
 }
 
+div[data-page="apropos"] {
+  position: fixed;
+}
+
 
 
 
